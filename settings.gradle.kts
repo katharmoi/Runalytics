@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -19,9 +20,20 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 rootProject.name = "Runalytics"
 include(":app")
-include(":common:ui")
 include(":common:data")
 include(":common:domain")
 include(":run:ui")
+include(":run:data")
+include(":run:domain")
+include(":run:location")
+include(":run:network")
+include(":common:database")
+include(":common:ui:designsystem")
+include(":common:ui:shared")
+include(":auth:ui")
+include(":auth:data")
+include(":auth:domain")

@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.runalytics.android.library)
+    alias(libs.plugins.runalytics.jvm.ktor)
 }
 
 android {

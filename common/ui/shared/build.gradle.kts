@@ -4,9 +4,9 @@ plugins {
 
 android {
     namespace = "com.kkagency.common.ui.shared"
-    kotlinOptions {
-        freeCompilerArgs = listOf("-XXLanguage:+PropertyParamAnnotationDefaultTargetMode")
-    }
+//    kotlinOptions {
+//        freeCompilerArgs = listOf("-XXLanguage:+PropertyParamAnnotationDefaultTargetMode")
+//    }
 }
 
 dependencies {

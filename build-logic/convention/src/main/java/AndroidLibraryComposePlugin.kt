@@ -16,6 +16,7 @@ class AndroidLibraryComposePlugin : Plugin<Project> {
 
             pluginManager.run {
                 apply("runalytics.android.library")
+                apply("org.jetbrains.kotlin.plugin.compose")
             }
 
             val extension = extensions.getByType<LibraryExtension>()
